@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Физика</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2>Физиканы Окуу Платформасы</h2>
+                <p>Физикалык маселелерди практикалоо жана тез жардам алуу.</p>
+            </div>
+            <div class="card-content">
+                <div id="problem-display" class="problem-card">
+                    <h3>Физикалык Маселе</h3>
+                    <p id="problem-statement"></p>
+                    <label for="answer">Жоопуңуз</label>
+                    <input type="text" id="answer">
+                </div>
+                <button id="submit-button">Жөнгө салуу</button>
+                <div id="feedback-display"></div>
+                <button id="next-button" style="display: none;">Кийинки Маселе</button>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
